@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. --><!-- 系统自带的设置-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeSelfSetting" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/holo_green_dark</item> <!--actionBar背景-->
+        <item name="colorAccent">@android:color/holo_orange_dark</item> <!--控件的选中的颜色-->
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item> <!--statusBar颜色-->
+    </style>
+
+</resources>
